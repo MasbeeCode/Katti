@@ -8,11 +8,13 @@
 # We wish to know the amount of QALY accumulated by a person at the time of death, given the complete history of this person.
 
 # Get number of iterations
+
+
 n = int(input())
 
+# Get value pairings, multiple them, then increase total
 total = 0
 
-# Get value pairings, multiple them, then increase total
 for i in range(n):
     vals = input().split(" ")
 
