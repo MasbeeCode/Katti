@@ -1,6 +1,3 @@
-from tkinter import Y
-
-
 x = int(input())
 
 # Read inputs and calc total. Read last index, then pow the number excluding the last digit
